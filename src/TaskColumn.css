@@ -1,0 +1,36 @@
+.task-column {
+  flex: 1;
+  margin: 10px;
+  background-color: rgba(36, 29, 29, 0.689);
+  border: 5px solid aquamarine;
+  min-height: 300px;
+  min-width: 200px;
+  max-width: 250px;
+  border-radius: 10px;
+  overflow-y: hidden;
+}
+/* .task-column-pending{
+    background-color: rgba(223, 131, 26, 0.532);
+} */
+
+
+.status-heading{
+  padding: 3px;
+}
+.status-heading-pending{
+    background-color: rgb(164, 93, 57);
+}
+.status-heading-in.progress{
+    background-color: rgb(205, 205, 30);
+}
+.status-heading-completed{
+    background-color: rgb(71, 205, 30);
+}
+.status-heading-deployed{
+    background-color: rgb(68, 30, 205);
+}
+.status-heading-deferred{
+    background-color: rgb(205, 30, 158);
+}
+
+
